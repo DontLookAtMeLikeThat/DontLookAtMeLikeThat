@@ -1,0 +1,149 @@
+<mxfile host="app.diagrams.net" modified="2023-05-09T14:15:00.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Es3p5QFSyXxoSX8SndXQ" version="21.2.9" type="github">
+  <diagram name="Seite-1" id="DvIKOicsZpFso_7XaFc3">
+    <mxGraphModel dx="1889" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dsq5nP3Ia2REg6rpPtfx-20" target="dsq5nP3Ia2REg6rpPtfx-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="505" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Object Destruction&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="20" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-9" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;font color=&quot;#0040ff&quot;&gt;const&lt;/font&gt; personOne = {&lt;br&gt;name: &#39;Kyle&#39;,&lt;br&gt;age: 24,&lt;br&gt;address: {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;city: &#39;Somewhere&#39;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;state: &#39;One of them&#39;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;}&lt;br&gt;}&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dsq5nP3Ia2REg6rpPtfx-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-12" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;font color=&quot;#0040ff&quot;&gt;const&lt;/font&gt; personTwo = {&lt;br&gt;name: &#39;Sally&#39;,&lt;br&gt;age: 32,&lt;br&gt;address: {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;city: &#39;Somewhere else&#39;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;state: &#39;Another One of them&#39;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;}&lt;br&gt;}&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="270" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dsq5nP3Ia2REg6rpPtfx-13" target="dsq5nP3Ia2REg6rpPtfx-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Destructure the object personTwo&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="65" y="470" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-16" value="&lt;font face=&quot;Lucida Console&quot;&gt;const {name , age}&amp;nbsp; = personTwo&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-19" value="The &quot;name&quot; and &quot;age&quot; field of the object personTwo are deconstructed, they are kinda extracted from the object." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="369.5" y="522.5" width="210" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-23" value="&lt;font face=&quot;Lucida Console&quot;&gt;const {name: firstName , age}&amp;nbsp; = personTwo&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4" y="670" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="647.5" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dsq5nP3Ia2REg6rpPtfx-25" target="dsq5nP3Ia2REg6rpPtfx-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-25" value="Now there is set a variable called &quot;firstname&quot;, which takes the value of &quot;name&quot;, setting a variable name is optional" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="657.5" width="150.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-27" value="Alternative values" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="760" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="dsq5nP3Ia2REg6rpPtfx-27" target="dsq5nP3Ia2REg6rpPtfx-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="770" as="sourcePoint" />
+            <mxPoint x="180" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-30" value="&lt;font face=&quot;Lucida Console&quot;&gt;const {name: firstName , age, favFood = &#39;Rice&#39;}&amp;nbsp; = personTwo&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-61" y="870" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dsq5nP3Ia2REg6rpPtfx-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-31" value="In this example, favFood is destructing personTwo, if personTwo already contains a definition for favFood, favFood will be overwritten with that value, otherwise favFood will get the default value &#39;Rice&#39;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="840" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dsq5nP3Ia2REg6rpPtfx-27" target="dsq5nP3Ia2REg6rpPtfx-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="870" as="sourcePoint" />
+            <mxPoint x="160" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-34" value="&lt;font face=&quot;Lucida Console&quot;&gt;const {name: firstName , ...rest}&amp;nbsp; = personTwo&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-16" y="1090" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-35" value="In this case, everything besides &quot;name&quot; is being stored in &quot;rest&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1075" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-36" value="Spread Operator" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="103.5" y="990" width="111" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-38" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dsq5nP3Ia2REg6rpPtfx-36" target="dsq5nP3Ia2REg6rpPtfx-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="950" as="sourcePoint" />
+            <mxPoint x="180" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dsq5nP3Ia2REg6rpPtfx-36" target="dsq5nP3Ia2REg6rpPtfx-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="1090" as="sourcePoint" />
+            <mxPoint x="160" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-40" value="Destruction of nested Objects (objects in objects)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="73.5" y="1200" width="171" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dsq5nP3Ia2REg6rpPtfx-35" target="dsq5nP3Ia2REg6rpPtfx-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1150" as="sourcePoint" />
+            <mxPoint x="430" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-42" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="dsq5nP3Ia2REg6rpPtfx-40" target="dsq5nP3Ia2REg6rpPtfx-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="1180" as="sourcePoint" />
+            <mxPoint x="170" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-44" value="&lt;font face=&quot;Lucida Console&quot;&gt;const {name: firstName , address: {street}}&amp;nbsp; = personTwo&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-46" y="1370" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dsq5nP3Ia2REg6rpPtfx-40" target="dsq5nP3Ia2REg6rpPtfx-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="1350" as="sourcePoint" />
+            <mxPoint x="180" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-47" value="This is the way to access or destruct a nested object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dsq5nP3Ia2REg6rpPtfx-47" target="dsq5nP3Ia2REg6rpPtfx-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1420" as="sourcePoint" />
+            <mxPoint x="440" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-49" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Combine 2 Objects&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="74.5" y="1490" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-50" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Courier New&quot;&gt;const personThree = {...personOne, ...personTwo}&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-56" y="1620" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-52" value="What this says is, take everything from personOne, and put it into personThree, and take everything from personTwo and put it in personThree.&lt;br&gt;NOTE: Everything that was already defined in personOne is being overwritten and taken as final value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1585" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dsq5nP3Ia2REg6rpPtfx-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dsq5nP3Ia2REg6rpPtfx-52" target="dsq5nP3Ia2REg6rpPtfx-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1600" as="sourcePoint" />
+            <mxPoint x="400" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
